@@ -286,6 +286,7 @@ body{
     line-height: 25.64px;
     color: #949494;
     margin: 0 auto;
+    margin-bottom: 70px;
 }
 .herotwo__site::before{
     display: inline-block;
@@ -293,14 +294,14 @@ body{
     height: 128px;
     background-image: url("./images/botone.svg");
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: calc(50% + 10px) calc(50% + 1px);
     content: "";
 }
-.section-bottom::after{
+.herotwo__site::after{
     display: inline-block;
+    position: absolute;
     width: 148px;
-    height: 78px;
+    height: 78px; 
     background-image: url("./images/bottwo.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -539,6 +540,7 @@ body{
     width: 100%;
     display: flex;
     column-gap: 24px;
+    list-style: none;
 }
 
 .actives {
@@ -621,6 +623,7 @@ body{
     font-weight: 400;
     line-height: 22px;
     color: #3d9cea;
+    padding-right: 40px;
 }
 
 .actives-short__time {
@@ -744,6 +747,7 @@ body{
     margin-top: 16px;
 
 }
+
 .site-foot {
     padding: 54px 0 23px 0;
     border: 1px solid #ebebeb;
